@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #Provisionales */
+header{
+    width: 100vw;
+    height: 30vh;
+    border: 3px solid red;
+}
+
+main {
+    width: 100vw;
+    border: 2px solid blue;
+}
+
+#home{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid yellow;
+}
+
+#productos{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid green;
+}
+
+#formulario{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid purple;
+}
+
+#acercaDe{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid darkcyan;
+}
+
+#footer{
+    width: 100vw;
+    height: 15vh;
+    border: 3px solid red;
+}
