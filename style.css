@@ -24,10 +24,10 @@ main {
 }
 
 #productos{
-    width: 100vw;
-    height: 200px;
-    border: 2px solid green;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
 #formulario{
     width: 100vw;
@@ -58,77 +58,4 @@ main {
     width: 100vw;
     height: 15vh;
     border: 3px solid red;
-}
-
-.brand-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-}
-
-.brand {
-    margin: 20px;
-    text-align: center;
-}
-
-.brand img {
-    width: 150px;
-    height: auto;
-}
-.container{
-    width: 300px; /* Ancho del contenedor */
-    margin: 0 auto; /* Centrar el contenedor en la página */
-    padding: 20px; /* Espaciado interno del contenedor */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.circulo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #2272FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
-}
-.circulo img {
-    max-width: 100%;
-    max-height: 100%;
-}
-#beneficios{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 10px;
-    background: rgba(205, 213, 226, 0.479);
-}
-
-#reseñas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-}
-
-.container1{
-    width: 300px; /* Ancho del contenedor */
-    margin: 0 auto; /* Centrar el contenedor en la página */
-    padding: 20px; /* Espaciado interno del contenedor */
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-}
-.imagen {
-    margin: 20px;
-    text-align: center;
-}
-
-.imagen img {
-    width: 150px;
-    height: auto;
 }
