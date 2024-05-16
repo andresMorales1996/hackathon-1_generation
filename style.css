@@ -6,27 +6,53 @@
 /* #Provisionales */
 header{
     width: 100vw;
-    height: 30vh;
     border: 3px solid rgb(128, 126, 126);
     top: 0;
-  justify-content: space-around;
-  align-items: center;
-  background-image: url('imagen-home/3FIT.png');
-  background-size: contain;
-  padding: 10px;
-  z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#header-img{
+    width: 100vw;
+    height: 12rem;
+    padding: 0;
+    background-image: url('./imagen-home/3FIT.png');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+
+button a{
+    color: azure;
+    text-decoration: none;
+}
+
+#header-buttons{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 1rem 0 1rem;
+    background-color: #e1e1e1;
+}
+
+#header-buttons button{
+    margin: 1rem;
+}
+
 
 main {
     width: 100vw;
-    border: 2px solid rgb(34, 34, 109);
+    /* border: 2px solid rgb(34, 34, 109); */
 }
 
 #home{
     width: 100vw;
-    height: 200px;
+    height: 20rem;
     border: 2px solid rgb(85, 85, 81);
-    background-image: url('imagen-home/imagen-home.jpg');
+    background-image: url('imagen-home/imagen-home.png');
     background-position: 100%;
     background-size: cover;
 }
@@ -43,12 +69,14 @@ main {
 }
 .containerHome h1 {
     font-size: 280%;
+    background-color: rgba(61, 49, 165, 0.7);
    
 }
 
 .containerHome p {
     font-size: 250%;
-    color: rgb(44, 245, 245);
+    color: rgb(21, 255, 255);
+    background-color: rgba(165, 49, 49, 0.7);
  
 }
 
@@ -237,7 +265,7 @@ main {
 #footer{
     width: 100vw;
     height: 15vh;
-    border: 3px solid red;
+    background-color: #e7ebf1;
 }
 
 .imagen-catalogo img{
@@ -257,6 +285,11 @@ main {
 
 
 /*Modificacion individual*/
+
+#productos {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
 .imagen-catalogo{
     position: relative;
     overflow: hidden;
@@ -307,6 +340,7 @@ main {
     flex-direction: row;
     padding: 0;
 }
+
 
 
 
