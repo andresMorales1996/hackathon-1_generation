@@ -88,11 +88,15 @@ main {
     justify-content: center;
 } 
 
+/*Formulario*/
+
 #formulario{
     background-color:rgba(230, 230, 230, 0.7);
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .imagen_sus{
     width: 100%;
     max-width: 500px;
@@ -100,14 +104,16 @@ main {
 
 .form{
     background-color: rgba(204, 203, 247, 0.7);
-    margin:auto;
-    width: 100%;
-    max-width: 400px;
-    padding: 1em 3em ;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 7%;
-    text-align:justify ;
-    
-    
+    padding: 1em 3em ;
+    margin:auto;
+    text-align:justify;
+    max-width: 63rem;
 }
 
 .titulo {
@@ -121,10 +127,17 @@ main {
 }
 
 .casillas{
-    position: relative;
+    position:relative;
     color:black;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
     border: #eaeaee;
+}
+
+.input:focus + .label,
+.input:not(:placeholder-shown) + label {
+    transform: translateY(-14px) scale(.8);
+    transform-origin: left top;
+    color: black;
 }
 
 .input{
@@ -136,15 +149,6 @@ main {
     border: none;
     outline: none;
     border-bottom: 1px solid var(--color);
-
-
-}
-
-.input:focus + .label,
-.input:not(:placeholder-shown) + label {
-    transform: translateY(-14px) scale(.8);
-    transform-origin: left top;
-    color: black;
 }
 
 .label{
@@ -155,18 +159,23 @@ main {
     left: 5px;
     transform: translateY(10px);
     transition:transform .5s, color .3s;
+}
 
+#button-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Suscribirme{
     background-color:rgba(230, 230, 230, 0.7);
-    position: absolute;
+    position: relative;
     cursor: pointer;
     border-radius: 12%;
     width: 20%;
-    color:black
-    
+    color:black 
 }
+
 
 /* Estilos de acercaDe */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

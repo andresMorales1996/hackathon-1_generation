@@ -148,7 +148,7 @@
         <section id="formulario">
             <form class="form">
                 <img class="imagen_sus" src="./imagen_suscribete.png"/>   
-               <h2 class="titulo"> Suscribete</h2>
+               <h2 class="titulo"> Suscríbete</h2>
                <div class="contenedor">
                 <div class="casillas">
                <input type="text" id="nombre" class="input" placeholder=" ">    
@@ -170,10 +170,15 @@
                <option value="mujer">mujer</option>
                </select>
                </div>
-               <br> <button type="submit" class="Suscribirme"><b>Sucribirme</b></button>
-               <br>
-               <br> <input type="checkbox" value="politica">
-               <label><b>he leido y acepto los terminos y condiciones y la politica de datos</b></label>
+               <div id="button-label">
+                <button type="submit" class="Suscribirme"><b>Suscribirme</b></button>
+                <div>
+                    <input type="checkbox" value="politica">
+               <label id="terms-label">
+                <b>he leido y acepto los terminos y condiciones y la politica de datos</b>
+               </label>
+                </div>
+               </div>
                </div>
                </form>
         </section>
